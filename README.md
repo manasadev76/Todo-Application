@@ -12,6 +12,3 @@ A simple and clean todo list application that allows users to manage tasks effec
 - React
 - JavaScript
 - CSS
-
-## How to Run
-1. Clone the repository:
