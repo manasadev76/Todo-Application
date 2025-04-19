@@ -29,6 +29,8 @@ h1 {
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
+  width: 420px;
+  max-width: 100%;
 }
 
 .TodoForm {
@@ -43,7 +45,7 @@ h1 {
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  width: 300px;
+  width: 75%;
   color: #fff;
 }
 
@@ -57,6 +59,7 @@ h1 {
   border: none;
   padding: 0.55rem;
   cursor: pointer;
+  width: 25%;
 }
 
 .Todo {
@@ -68,10 +71,20 @@ h1 {
   padding: 0.75rem 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
-.fa-trash {
-  margin-left: 0.75rem;
+.Todo p{
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  text-align: left;
+  width: 65%;
+}
+
+.options{
+  display: flex;
+
 }
 
 .incompleted {
@@ -85,8 +98,26 @@ h1 {
   cursor: pointer;
 }
 
-.edit-icon,
-.delete-icon {
+.edit,
+.delete {
   cursor: pointer;
 }
  
+
+.edit{
+  border: none;
+  outline: none;
+  margin-right: 5px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background-color: rgb(119, 193, 8);
+}
+
+.delete{
+  border: none;
+  outline: none;
+  padding: 2px 3px;
+  border-radius: 3px;
+  background-color: rgb(237, 81, 81);
+}
+
